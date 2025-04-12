@@ -1,0 +1,19 @@
+# Ignore cross-compiler binaries
+/cross-compiler/
+/opt/
+
+# Ignore object files
+*.o
+
+# Ignore binary output files
+*.bin
+
+# Ignore the kernel image
+os-image.bin
+
+# Ignore the QEMU save states (optional)
+*.qemu
+
+# Ignore Makefile specific temporary files
+*.swp
+
